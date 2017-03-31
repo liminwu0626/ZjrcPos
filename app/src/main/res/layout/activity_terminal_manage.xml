@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F2F6"
+    android:orientation="vertical">
+
+    <include layout="@layout/head_title"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10.0dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_pwd_modify"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:background="@color/color_white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:paddingLeft="5.0dip"
+                android:drawableLeft="@drawable/ic_drawer_about"
+                android:text="修改密码"
+                android:textColor="#ff444444"
+                android:textSize="14.0sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_right"/>
+
+        </LinearLayout>
+
+        <include layout="@layout/devide_line"/>
+
+        <LinearLayout
+            android:id="@+id/ll_operate_manage"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:background="@color/color_white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_weight="2"
+                android:paddingLeft="5.0dip"
+                android:gravity="center"
+                android:drawableLeft="@drawable/ic_drawer_setting"
+                android:text="信息设置"
+                android:textColor="#ff444444"
+                android:textSize="14.0sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_right"/>
+        </LinearLayout>
+
+
+        <include layout="@layout/devide_line"/>
+
+        <LinearLayout
+            android:id="@+id/ll_recent_set"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:background="@color/color_white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_weight="2"
+                android:paddingLeft="5.0dip"
+                android:drawableLeft="@drawable/ic_drawer_share"
+                android:gravity="center"
+                android:text="恢复出厂"
+                android:textColor="#ff444444"
+                android:textSize="14.0sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_right"/>
+        </LinearLayout>
+
+        <include layout="@layout/devide_line"/>
+    </LinearLayout>
+</LinearLayout>

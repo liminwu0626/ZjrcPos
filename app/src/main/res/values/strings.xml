@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">浙农信·云POS</string>
+    <string name="action_settings">Settings</string>
+    <string name="message_click_to_exit_system">再按一次退出程序</string>
+    <!-- Strings related to login -->
+    <string name="prompt_login">操作编号</string>
+    <string name="prompt_password">登录密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">操作编号无效</string>
+    <string name="error_pwd_required">请输入登录密码</string>
+    <string name="error_invalid_password">登录密码安全性较低</string>
+    <string name="error_incorrect_password">登录密码不正确</string>
+    <string name="error_field_required">请输入操作编号</string>
+    <string-array name="IDTypeArr">
+        <item>居民身份证</item>
+        <item>学生证</item>
+    </string-array>
+    <string-array name="unitNameArr">
+        <item>海职高</item>
+        <item>技师学院</item>
+        <item>海宁电大</item>
+        <item>园区管理中心</item>
+        <item>园区信息中心</item>
+        <item>宝龙汽修</item>
+    </string-array>
+</resources>
